@@ -1,0 +1,47 @@
+
+.main-login{
+    height: 35vh;
+    width: 70%;
+    
+}
+.formulario-login{
+    margin-top: 40px;
+    position: relative;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center*/
+}
+.boton-ingresar{
+    font-size: 20px;
+    font-weight: bold;
+    width: 45%;
+    height: 35px;
+    margin-top: 10px;
+    position: absolute;
+    right: 30%;
+    color: #ebebeb;
+    background-color: var(--celeste);
+    border-radius: 7px;    
+}
+.boton-ingresar:hover{
+    color: #ebebeb;
+    background-color: #0022AA;    
+    transition: all 0.6s;
+}
+
+@media(min-width:361px){
+    .formulario-login{
+        width: 90%;
+        margin-left: 20%;
+    }
+}
+@media(min-width:769px){
+    .formulario-login{
+        width: 60%;
+        margin-left: 30%;
+    }
+}
+
+
+
+
