@@ -87,17 +87,11 @@
 }
 
 @media(min-width:769px){
-    /*.campos{
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }*/
-}
-    
-    div{
+    .main-form{
         width: 70%;
-    }/*
+    }
+}
+    /*
     .input-largo
     .caja, .input-largo{
         width: 45%;
